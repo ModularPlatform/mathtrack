@@ -1,6 +1,6 @@
-# 📊 Student Math Score Management Application
+# Student Math Score Management Application
 
-## 📌 Overview
+## Overview
 The **Student Math Score Management Application** is designed to streamline exam management, grading, and score tracking for students, teachers, and administrators.  
 It features an **administrator web interface** and a **student mobile app** (Android/iOS), enabling:
 - Digital exam answer submissions
@@ -10,7 +10,7 @@ It features an **administrator web interface** and a **student mobile app** (And
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Register and manage answer sheets per exam.
 - Allow students or teachers to submit answers digitally.
 - Auto-compare answers with correct responses and apply weight-based scoring.
@@ -19,7 +19,7 @@ It features an **administrator web interface** and a **student mobile app** (And
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 
 | Feature Category | Feature Name | Description |
 |------------------|--------------|-------------|
@@ -32,7 +32,7 @@ It features an **administrator web interface** and a **student mobile app** (And
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### 1. Administrator Web Page
 - Pre-register answer sheets (correct answers & weights).
@@ -42,8 +42,7 @@ It features an **administrator web interface** and a **student mobile app** (And
 - Responsive UI (PC/tablet support).
 - Secure admin-only access.
 
-### 2. Database System
-- **Relational DBMS:** PostgreSQL / MySQL  
+### 2. Database System 
 - Stores:
   - Answer sheets
   - Student submissions
@@ -61,7 +60,6 @@ It features an **administrator web interface** and a **student mobile app** (And
 - Secure login (Google, Facebook, Apple, Kakao supported).
 - View score history, trends, and per-question results.
 - Student board for Q&A and announcements.
-- Cross-platform: React Native / Flutter.
 
 ### 5. Authentication & Roles
 - **Admins:** Full access to all data.
