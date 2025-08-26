@@ -1,0 +1,101 @@
+# Mathtrack2-app
+
+A comprehensive student management and score tracking application built with React Native and Expo.
+
+Created by demi saiq
+
+## 📱 About
+
+Mathtrack2-app is a mobile application designed for educational institutions to manage students, track exam scores, and provide comprehensive analytics. The app features exam creation, scheduling, result tracking, and performance analytics.
+
+## 🚀 Quick Start with Expo Go
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your development machine:
+
+1. **Node.js** (version 18 or later)
+   - Download from [nodejs.org](https://nodejs.org/)
+   - Verify installation: `node --version`
+
+2. **Bun** (Package Manager - used in this project)
+   - Install: `npm install -g bun`
+   - Verify installation: `bun --version`
+
+3. **Expo CLI**
+   - Install: `npm install -g @expo/cli`
+   - Verify installation: `expo --version`
+
+4. **Expo Go App** on your mobile device
+   - **iOS**: Download from [App Store](https://apps.apple.com/app/expo-go/id982107779)
+   - **Android**: Download from [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+
+### 📦 Installation Steps
+
+1. **Navigate to the project directory**
+
+make sure the directory is correct you can use git clone to clone from the git hub
+
+   ```bash
+   cd "Mathtrack2-app"
+   ```
+
+   **Important**: Make sure you're in the correct directory before running any commands!
+
+2. **Verify you're in the right directory**
+ 
+3. **Install dependencies**
+   ```bash
+   bun install
+   ```
+
+5. **Start the development server**
+   ```bash
+   bun start
+   ```
+
+   Alternative commands:
+   ```bash
+   # For web development
+   bun run start-web
+
+   # For web development with debug logs
+   bun run start-web-dev
+   ```
+
+6. **Connect with Expo Go**
+
+   After running `bun start`, you'll see a QR code in your terminal.
+
+   **On iOS:**
+   - Open the Camera app
+   - Point it at the QR code
+   - Tap the notification to open in Expo Go
+
+   **On Android:**
+   - Open the Expo Go app
+   - Tap "Scan QR Code"
+   - Point your camera at the QR code
+
+### 🔧 Development Commands
+
+```bash
+# Start development server
+bun start
+
+# Start with web support
+bun run start-web
+
+# Start web with debug logging
+bun run start-web-dev
+
+# Install new dependencies
+bun add <package-name>
+
+# Install development dependencies
+bun add -d <package-name>
+
+# Clear cache and restart
+expo start --clear
+```
+
